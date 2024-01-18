@@ -52,12 +52,12 @@ a{
 }
 .logo-container{
     display: flex;
-    justify-content: baseline;
+    justify-content: left;
     align-items: center;
 }
    
 .logo-text{
-    margin-left: -1.2rem;
+    margin-left: -2rem;
     font-size: 28px;
 }
 
@@ -79,6 +79,7 @@ a{
     font-size: 7em;
     color: rgb(231,231,231);
     margin-left: 8rem;
+    margin-bottom: 2rem;
     bottom: -16%;
     left: -5%;
     font-weight: bold;
@@ -171,6 +172,9 @@ a{
 }
 .user-image img{
     z-index: -9;
+    object-fit: cover;
+    width:500px;
+    height:500px;
 }
 
 @keyframes scaleImage {
